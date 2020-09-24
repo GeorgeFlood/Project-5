@@ -6,17 +6,20 @@ src: url(../font/Ranchers-Regular.ttf);
 
 *{
 box-sizing: border-box;
-margin: 0;
-font-family: 'ranchers-regular';
-background-color: #ffffe0;
+margin: 0 auto;
+font-family: $font;
+background-color: $complement;
 
 
 h1{
-margin: 0 0;
+padding-top: 55px;
+margin-bottom: 30px;
+margin: 0;
 color: $main;
 padding-bottom: 1.5em;
 text-align: center;
 font-size: 3em;
 text-shadow: 5px 5px 15px $main;
+background-color: #4B0082;
  }
 }

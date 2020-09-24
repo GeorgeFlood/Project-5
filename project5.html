@@ -1,15 +1,13 @@
-<DOCTYPE! HTML>
+<!DOCTYPE HTML>
 
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Project 5</title>
 	<link rel="stylesheet" href="CSS/styles.css">
 	<link rel="stylesheet" href="CSS/baguetteBox.min.css">
-<script src="Javascript/baguetteBox.min.js"></script>
-<script src="JavaScript/searchFilter.js"></script>
-<script src="JavaScript/app.js"></script>
 </head>
 
 <body>
@@ -17,57 +15,57 @@
 <h1> 5th Project </h1>
 
 <div class="search">
-<input type="text" name="box" placeholder="Filter Photo">
+     <input class="search" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..">
 </div>
  
 
 <div class="gallery">
-	<a href="images/01.jpg" data-caption="Country-Side">
-	<img src = "thumbnails/01.jpg">
+	<a href="images/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+	<img src = "thumbnails/01.jpg" alt="Gallery">
 </a>
 
-	<a href="images/02.jpg" data-caption="Norwegian Fjords's">
-	<img src = "thumbnails/02.jpg">
+	<a href="images/02.jpg" data-caption="he lake was so calm today. We had a great view of the snow on the mountains from here.">
+	<img src = "thumbnails/02.jpg" alt="Gallery">
 </a>
 
-	<a href="images/03.jpg" data-caption="Montana Forest">
-	<img src = "thumbnails/03.jpg">
+	<a href="images/03.jpg" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+	<img src = "thumbnails/03.jpg" alt="Gallery">
 </a>
 
-    <a href="images/04.jpg" data-caption="Artic">
-	<img src = "thumbnails/04.jpg">
+    <a href="images/04.jpg" data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today. ">
+	<img src = "thumbnails/04.jpg" alt="Gallery">
 </a>
 
-    <a href="images/05.jpg" data-caption="Jordan Cliff's">
-	<img src = "thumbnails/05.jpg">
+    <a href="images/05.jpg" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+	<img src = "thumbnails/05.jpg" alt="Gallery">
    </a>
 
-   <a href="images/06.jpg" data-caption="National Park">
-	<img src = "thumbnails/06.jpg">
+   <a href="images/06.jpg" data-caption="Fall is coming, I love when the leaves on the trees start to change color.">
+	<img src = "thumbnails/06.jpg" alt="Gallery">
 </a>
 
-    <a href="images/07.jpg" data-caption="Asia Country">
-	<img src = "thumbnails/07.jpg">
+    <a href="images/07.jpg" data-caption="I drove past this plantation yesterday, everything is so green!">
+	<img src = "thumbnails/07.jpg" alt="Gallery">
 </a>
 
-    <a href="images/08.jpg" data-caption="Aussie Beach">
-	<img src = "thumbnails/08.jpg">
+    <a href="images/08.jpg" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+	<img src = "thumbnails/08.jpg" alt="Gallery">
 </a>
 
-    <a href="images/09.jpg" data-caption="English Country road">
-	<img src = "thumbnails/09.jpg">
+    <a href="images/09.jpg" data-caption="We enjoyed a quiet stroll down this countryside lane.">
+	<img src = "thumbnails/09.jpg" alt="Gallery">
 </a>
 
-    <a href="images/10.jpg" data-caption="Florida coast">
-	<img src = "thumbnails/10.jpg">
+    <a href="images/10.jpg" data-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
+	<img src = "thumbnails/10.jpg" alt="Gallery">
 </a>
 
-    <a href="images/11.jpg" data-caption="Paradise Window">
-	<img src = "thumbnails/11.jpg">
+    <a href="images/11.jpg" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+	<img src = "thumbnails/11.jpg" alt="Gallery" >
 </a>
 
-    <a href="images/12.jpg" data-caption="Kiwi beauty">
-	<img src = "thumbnails/12.jpg">
+    <a href="images/12.jpg" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+	<img src = "thumbnails/12.jpg" alt="Gallery">
 </a>
 
 </div>
@@ -78,11 +76,9 @@
 
 </footer>
 
-<script>
-window.addEventListener('load', function() {
-  baguetteBox.run('.gallery');
-});
-</script>
+	    <script src="Javascript/baguetteBox.min.js"></script>
+		<script src="JavaScript/searchFilter.js"></script>
+        <script src="JavaScript/app.js"></script>
 
 </body>
 
